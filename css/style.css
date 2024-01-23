@@ -18,6 +18,19 @@ a {
 }
 body{
   font-family: "Montserrat",sans-serif;
+  background: #eee;
+}
+.container{
+  display: block;
+  max-width: 1200px;
+  margin: auto;
+}
+p{
+  margin-bottom: 0.8rem;
+}
+.title{
+  font-weight: 300;
+  font-size: 2rem;
 }
 /* vp+header */
 .vp-container{
@@ -77,6 +90,7 @@ header ul li a:hover{
   align-items: center;
   justify-content: center;
   background: url(../images/frame.jpg) center center/cover;
+  height: 700px;
 
 }
 .vp-content{
@@ -92,5 +106,44 @@ header ul li a:hover{
   font-weight: 300;
   letter-spacing: 1px;
   line-height: 2rem;
+
+}
+/* offer */
+.offer{
+  padding: 10rem 1rem;
+}
+.offer-list {
+  display: flex;
+  flex:row nowrap;
+  list-style: none;
+  justify-content: space-between;
+  color: black;
+}
+.offer-elem {
+  margin: 1rem;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 23px;
+    box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
+    flex: 1;
+
+}
+.offer-elem-img{
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  height: auto;
+  display: block;
+  box-shadow: 0 0 1.5rem rgba(17,17,17,0.7)
+}
+.offer-elem-text{
+  padding: 2rem;
+  text-align: center;
+}
+.offer-separator{
+  height: 2px;
+  width: 50px;
+  background: #333;
+  margin: 1rem auto;
 
 }
