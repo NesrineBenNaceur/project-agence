@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+strong{
+  color: #f9ca24;
+  font-weight: 400;
+}
 h1,
 h2,
 h3 {
@@ -20,6 +24,7 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  color: white;
 }
 header{
   padding: 1rem;
@@ -64,4 +69,28 @@ header ul li a:hover{
 }
 .vp-logo a:hover{
   color: #f9ca24;
+}
+.vp{
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/frame.jpg) center center/cover;
+
+}
+.vp-content{
+  max-width: 800px;
+  text-align: center;
+}
+.vp-content h1{
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+}
+.vp-content p{
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2rem;
+
 }
